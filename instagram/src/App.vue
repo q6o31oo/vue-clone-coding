@@ -1,15 +1,20 @@
 <template>
-  <nav>Navigation bar</nav>
-  <router-view></router-view>
+  <img src="./assets/logo.png">
+  <div>
+    <el-button type="primary">Primary</el-button>
+    <el-button type="success">Success</el-button>
+    <el-button type="info">Info</el-button>
+    <el-button type="primary">el-button</el-button>
+  </div>
 </template>
 
 <script>
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-  },
-};
+  }
+}
 </script>
 
 <style>
