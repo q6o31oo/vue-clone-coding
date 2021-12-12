@@ -1,10 +1,17 @@
 <template>
   <img src="./assets/logo.png">
   <div>
-    <el-button type="primary">Primary</el-button>
+    <p>
+      If Element Plus is successfully added to this project, you'll see an
+      <code v-text="'<el-button>'"></code>
+      below
+    </p>
+    <el-button type="primary">el-button</el-button>
     <el-button type="success">Success</el-button>
     <el-button type="info">Info</el-button>
-    <el-button type="primary">el-button</el-button>
+    <el-button type="warning">Warning</el-button>
+    <el-button type="danger">Danger</el-button>
+    <el-button>中文</el-button>
   </div>
 </template>
 
